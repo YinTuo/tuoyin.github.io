@@ -1,0 +1,839 @@
+
+<!DOCTYPE html>
+<html>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163418269-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-163418269-1');
+</script>
+
+<head lang="el">
+<link rel="shortcut icon" href="l.ico" type="image/x-icon"/>
+<TITLE>Tuo's CV</TITLE>
+<META name="author" content="Template Creator: Julian Praest - joolean.io">
+<META name="editedby" content="Template adjustment: tuoyin - tuoyin.github.io">
+<META name="copyright" content="Creative Commons BY-NC 4.0">
+<meta name="viewport" content="width=device-width, initial-scale=0.7">
+
+<style>
+@import 'https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i|Raleway:300,300i,600,600i|Alegreya+Sans:300i';
+
+body {
+    background-image: linear-gradient(-34deg, #003030 7%, #003030 47%, #003030 100%);
+	border-radius: 0px;
+	overflow: hidden;
+    text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: #3C3C3C ; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #3C3C3C ; /* Gecko Browsers */
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+section {
+    display: block;
+    position: absolute;
+}
+
+.wrapper {
+    display: block;
+    position: absolute;
+	overflow-y: auto;
+	overflow-x: hidden;
+	top: 5%;
+	bottom:5%;
+	width: 85%;
+	height: 80%;
+}
+
+.row {
+  display: flex;
+}
+
+.skills {
+  flex: 25%;
+  padding-right: 5px;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.certifications {
+  flex: 75%;
+  padding-left: 20px;
+}
+
+.dates{
+	flex: 10%;
+	padding-top:5px;
+}
+
+.role{
+	flex: 30%;
+	padding-left: 5px;
+}
+
+.venue{
+	flex: 60%;
+	margin-top: -12px;
+}
+
+.topic{
+	flex: 10%;
+	margin-top: -42px;
+}
+
+.details{
+	flex: 90%;
+	margin-top: -42px;
+	padding-left: 5px;
+	margin-bottom: -10px;
+}
+
+.subheader > h4 {
+	margin-bottom: 28px;
+}
+
+.topic > h3{
+	font-size: 14px;
+}
+
+#header {
+	background: #4d4d4d;
+	text-align: center;
+	height: 80px;
+}
+
+#information {
+    left: 25%;
+    top: 5%;
+	width: 70%;
+    height: 100%;
+	word-wrap: normal;
+}
+
+#footer {
+	left: 0;
+	bottom: 2%;
+	width: 100%;
+	text-align: center;
+
+   	font-family: 'Cormorant Garamond', serif;
+	font-style: italic;
+	font-size: 12px;
+	font-weight: 100 !important;
+	color: #FFF3F1;
+	letter-spacing: 0.5px;
+	line-height: 26px;
+}
+
+#photo {
+	background-image: url("photo.png");
+    background-size:contain;
+	position: absolute;
+	width: 600px;
+	height: 600px;
+	background-repeat: no-repeat;
+    left: -120px;
+    top: -150px;
+}
+
+#frameBorder {
+    border: 10px white solid;
+	left: 10px;
+    top: 10px;
+	right: 10px;
+	bottom: 10px;
+    position: absolute;
+}
+
+#sm_links {
+    right: 5%;
+    top: 5%;
+}
+
+.sm_button {
+    margin-top: 10px;
+}
+
+.skills > .sm_button {
+	display: inline-block;
+}
+
+a {
+	font-family: 'Raleway', sans-serif;
+    font-weight: 300!important;
+	letter-spacing: -0.02px;
+	color: #FFDB58 ;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.smallLinks {
+	font-size: 12px;
+}
+
+h3 > a {
+	text-transform: lowercase;
+}
+
+img { border: 0; }
+
+.delayedAppearance {
+    -moz-animation-name: pageLoad;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-out;
+    -moz-animation-duration: 0.8s;
+    -moz-animation-delay: 0s;
+
+    -webkit-animation-name: pageLoad;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-delay: 0s;
+
+    animation-name: pageLoad;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 0.8s;
+    animation-delay: 0s;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+	font-weight: 600 !important;
+	color: #FFFFFF;
+	letter-spacing: 1.9px;
+	margin-top: -20px;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+    font-weight: 300!important;
+	color: #FFFFFF;
+	letter-spacing: -0.02px;
+	margin-top: -30px;
+}
+
+h3 { /* side, main */
+  	font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 100!important;
+	font-size: 16px;
+	color: #FFF3F1;
+	letter-spacing: 0.5px;
+	line-height: 20px;
+	font-weight: 300!important;
+}
+
+h4 { /* subheader */
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #FFFFFF;
+	font-size: 24px;
+	letter-spacing: -0.02px;
+	margin-bottom: -30px;
+}
+
+h5 { /*venue*/
+  	font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300!important;
+	font-size: 16px;
+	color: #B4AFC2;
+	letter-spacing: 0.5px;
+	text-align: right;
+	font-weight: 300!important;
+}
+
+.skills > h4
+{
+	color: #d45d7c; /* #D61D4F; pink */
+}
+
+.dates > h3 {
+	font-size: 12px;
+}
+
+@-moz-keyframes pageLoad {
+    0% {
+        -moz-transform: translateX(-150px);
+        opacity: 0;
+    }
+    100% {
+        -moz-transform: translateX(0);
+        opacity: 100;
+    }
+}
+@-webkit-keyframes pageLoad {
+    0% {
+        -webkit-transform: translateX(-150px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        opacity: 100;
+    }
+}
+@keyframes pageLoad {
+    0% {
+        transform: translateX(-150px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 100;
+    }
+}
+
+@-moz-keyframes pageLoadButton {
+    0% {
+        opacity: 0;
+    }    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+@-webkit-keyframes pageLoadButton {
+    0% {
+        opacity: 0;
+    }    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+@keyframes pageLoadButton {
+    0% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+
+@media screen and (max-width: 812px) {
+	.wrapper {
+		width: 80%;
+	}
+	#information {
+		left: 10%;
+		width: 70%;
+	}
+
+	#footer {
+		font-size: 8px;
+	}
+	.smallLinks
+	{
+		font-size: 8px;
+	}
+
+	#photo {
+		opacity: 0.2;
+	}
+}
+
+@media screen and (max-width: 760px) {
+
+	h1 {
+		font-size: 24px;
+		padding-top: 5px;
+	}
+
+	h2 {
+		font-size: 20px;
+		padding-top: 5px;
+	}
+
+	#header {
+		height: 60px;
+	}
+
+	.row {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.certifications > .row {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.certifications > .row :nth-child(1) { order: 2; }
+	.certifications > .row  :nth-child(2) { order: 3; }
+	.certifications > .row  :nth-child(3) { order: 1; }
+
+
+	.dates{
+		flex: 30%;
+		margin-top: -36px;
+		padding: 5px;
+	}
+
+	.role{
+		flex:60%;
+		padding-left: 0px;
+		margin-top: -36px;
+	}
+
+	.venue{
+		flex:100%;
+	}
+
+	h5 {
+		text-align: left;
+	}
+
+	.skills {
+		text-align: left;
+		margin-left: 25px;
+	}
+
+	.details {
+		margin-top: -28px;
+	}
+
+	.subheader > .row {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.subheader > .topic {
+		margin-top: 28px;
+	}
+	.subheader > .details {
+		margin-top: 36px;
+	}
+}
+
+
+</style>
+</head>
+<body>
+
+
+
+<div id="frameBorder"></div>
+
+<div class="wrapper">
+<section id="information" class="delayedAppearance">
+   <div id="header" class="delayedAppearance">
+		<h1>Tuo Yin</h1>
+		<h2>information engineer</h2>
+  </div>
+
+  <div class="row">
+	  <div class="skills">
+		  <h4>about</h4><br>
+		  <h3>Call me Tuo<br>
+		  Nationality: China<br>
+		  Gender: Female<br></h3>
+
+		  <h4>contact</h4><br>
+		  <h3>Daejeon, South Korea<br>
+		  <a class="keepLinks" href="yintuo.scarlett@gmail.com">yintuo.scarlett@gmail.com</a><br>
+		  </h3>
+
+		  <h4>programming</h4><br>
+		  <h3>
+		  Python, MATLAB#<br>
+      C++, C, JAVA<br>
+		  CSS, HTML<br>
+		  </h3>
+
+		  <h4>tools</h4><br>
+		  <h3>LaTeX<br>
+		  Keras, Tensorflow<br></h3>
+
+		  <h4>skills</h4><br>
+		  <h3>problem-solving<br>
+		  teamwork, organizing<br>
+		  communication<br>
+		  positive attitude<br>
+		  can handle stress<br></h3>
+
+		  <h4>interests</h4><br>
+      <h3>optical imaging<br>
+		  medical imaging<br>
+		  PET image reconstruction<br>
+		  medical image analysis<br>
+		  deep learning<br></h3>    
+	  </div>
+
+	  <div class="certifications">
+		<h4><span style="color:#4ecfde">edu</span>cation</h4><br>
+		<div class="row">
+			<div class="dates">
+				<h3>Since 2021</h3>
+			</div>
+			<div class="role">
+				<h3>Doctoral Course</h3>
+			</div>
+			<div class="venue">
+				<h5>Korea Advanced Institute of Science and Technology (KAIST), Korea</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="topic"></div>
+			<div class="details">
+				<h3>
+				in Bio and Brain Engineering<br>
+				Funded by KAIST Scholarship<br>
+				Member of <a href="http://mooolab.kaist.ac.kr/">Mooo Research Group</a><br>
+				Specialized in: Optical Imaging.<br>
+				</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="dates">
+				<h3>2019-2021</h3>
+			</div>
+			<div class="role">
+				<h3>M.Eng.</h3>
+			</div>
+			<div class="venue">
+				<h5>Tokyo Institute of Technology, Japan</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="topic"></div>
+			<div class="details">
+				<h3>
+					in Information and Communications Engineering (GPA 3.65/4.50)<br>
+					Member of <a href="http://www-obi.isl.titech.ac.jp/">Obi Laboratory</a><br>
+          Specialized in: PET image reconstruction.<br>
+          Student Ambassador for academic year 2021<br>
+					DIploma Thesis “Image Quality Improvement in Reconstruction from TOF-PET Emission Data Using Deep Neural Networks”,<br>
+					under the supervision of Associate Professor Takashi Obi<br>
+				</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="dates">
+				<h3>2018-2019</h3>
+			</div>
+			<div class="role">
+				<h3>Research Student</h3>
+			</div>
+			<div class="venue">
+				<h5>The University of Tokyo, Japan</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="topic"></div>
+			<div class="details">
+				<h3>
+          in Electronic Informatics, Graduate School of Information Science and Technology<br>
+          Member of <a href="https://www.hal.t.u-tokyo.ac.jp/lab/en/index_1.xhtml">Aizawa-Yamasaki Lab</a><br>
+					Intensive Japanese language course and preparation for graduate studies<br>
+				</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="dates">
+				<h3>2014-2018</h3>
+			</div>
+			<div class="role">
+				<h3>4Y B.Eng.</h3>
+			</div>
+			<div class="venue">
+				<h5>Dalian University of Technology, China</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="topic"></div>
+			<div class="details">
+				<h3>
+					double degree in Software Engineering (major) and Japanese (minor) (Grade 3.65/5.0)<br>
+					Specialized in: Image Processing, Computer Systems, Electronics, AI<br>
+					Diploma Thesis “Detection of Lung Nodules based on a Deep Learning Method”,<br>
+          under the supervision of Associate Professor Rui Xu<br>
+				</h3>
+			</div>
+		</div>
+
+		<h4><span style="color:#FA96AB">exp</span>erience</h4><br>
+		<div class="row">
+			<div class="dates">
+				<h3>2021</h3>
+			</div>
+			<div class="role">
+				<h3>Ambassador</h3>
+			</div>
+			<div class="venue">
+				<h5>Tokyo Institute of Technology, Japan</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="topic"></div>
+			<div class="details">
+				<h3>
+				Promotional work and <a href="https://discover.titech.ac.jp/ambassador/tuo/">blog authorship</a> for the admissions division.<br>
+				</h3>
+			</div>
+		</div>
+
+    <div class="row">
+			<div class="dates">
+				<h3>2021</h3>
+			</div>
+			<div class="role">
+				<h3> Research Assistant</h3>
+			</div>
+			<div class="venue">
+				<h5>Tokyo Institute of Technology, Japan</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="topic"></div>
+			<div class="details">
+				<h3>
+				Project on developing PET reconstruction methods based on deep learning models.<br>
+				</h3>
+			</div>
+		</div>
+
+    <div class="row">
+			<div class="dates">
+				<h3>2020-2021</h3>
+			</div>
+			<div class="role">
+				<h3> Trainee</h3>
+			</div>
+			<div class="venue">
+				<h5>Quantum and Radiological Science and Technology, Chiba, Japan</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="topic"></div>
+			<div class="details">
+				<h3>
+				Research on data simulation in PET emission process and PET image reconstruction.<br>
+				</h3>
+			</div>
+		</div>
+
+    <div class="row">
+			<div class="dates">
+				<h3>2019-2020</h3>
+			</div>
+			<div class="role">
+				<h3>Software Developer</h3>
+			</div>
+			<div class="venue">
+				<h5>CDREM Co., Ltd., Sagamihara, Japan</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="topic"></div>
+			<div class="details">
+				<h3>
+				Data analysis, modelling and developing an visualization software.<br>
+				</h3>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="dates">
+				<h3>2019</h3>
+			</div>
+			<div class="role">
+				<h3> Teaching Assistant</h3>
+			</div>
+			<div class="venue">
+				<h5>Tokyo Institute of Technology, Japan</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="topic"></div>
+			<div class="details">
+				<h3>
+				Topic introduction, group-work management and progress evaluation.<br>
+				</h3>
+			</div>
+		</div>
+
+		<div class="subheader">
+			<h4><span style="color:#DE82D3">pub</span>lications</h4>
+			<div class="row">
+				<div class="topic"><h3>Journal</h3></div>
+				<div class="details">
+					<h3>
+					Tuo Yin and Takashi Obi,
+					“Generation of Attenuation Correction Factors from Time-of-flight PET Emission Data Using High-resolution Residual U-Net”, Biomedical Physics & Engineering Express, Vol. 7, No. 6, Sep. 2021.
+					</h3>
+				</div>
+			</div>
+			<br><br>
+			<div class="row">
+				<div class="topic"><h3>More</h3></div>
+				<div class="details">
+					<h3>
+					Full list available on <a href="https://tuoyin.github.io/publications.html">tuoyin.github.io/publications.html</a>
+					</h3>
+				</div>
+			</div>
+		</div>
+
+		<div class="subheader">
+			<h4><span style="color:#32CD51">lan</span>guages</h4>
+			<div class="row"><div class="topic"><h3>Chinese</h3></div>  <div class="details"><h3>&#9679; &#9679; &#9679; &#9679; &#9679; Native</h3></div></div>
+			<br>
+			<div class="row"><div class="topic"><h3>English</h3></div>  <div class="details"><h3>&#9679; &#9679; &#9679; &#9679; &#9675; Working proficiency</h3></div></div>
+			<br>
+			<div class="row"><div class="topic"><h3>Japanese</h3></div>  <div class="details"><h3>&#9679; &#9679; &#9679; &#9675; &#9675; JLPT N1</h3></div></div>
+  	</div>
+
+		<div class="subheader">
+			<h4><span style="color:#fcecb0">hon</span>ors and <span style="color:#fcecb0">awa</span>rds</h4>
+
+      <div class="row">
+  			<div class="dates">
+  				<h3>2021</h3>
+  			</div>
+  			<div class="role">
+  				<h3>Outstanding award</h3>
+  			</div>
+  			<div class="venue">
+  				<h5>Tokyo Institute of Technology, Japan</h5>
+  			</div>
+  		</div>
+  		<div class="row">
+  			<div class="topic"></div>
+  			<div class="details">
+  				<h3>
+  				Awarded to two graduate students in Department of Information and Communications Engineering based on academic achievements.
+  				</h3>
+  			</div>
+  		</div>
+
+      <div class="row">
+  			<div class="dates">
+  				<h3>2021</h3>
+  			</div>
+  			<div class="role">
+  				<h3>Trainee Grant</h3>
+  			</div>
+  			<div class="venue">
+  				<h5>Virtual 2021 IEEE NSS MIC</h5>
+  			</div>
+  		</div>
+  		<div class="row">
+  			<div class="topic"></div>
+  			<div class="details">
+  				<h3>
+  				Awarded to participants in 2021 IEEE Nuclear Science Symposium and Medical Imaging Conference.
+  				</h3>
+  			</div>
+  		</div>
+
+      <div class="row">
+  			<div class="dates">
+  				<h3>2020</h3>
+  			</div>
+  			<div class="role">
+  				<h3>Tuition Exemption</h3>
+  			</div>
+  			<div class="venue">
+  				<h5>Tokyo Institute of Technology, Japan</h5>
+  			</div>
+  		</div>
+  		<div class="row">
+  			<div class="topic"></div>
+  			<div class="details">
+  				<h3>
+  				Full exemptions in AY 2020 awarded based on academic achievements.
+  				</h3>
+  			</div>
+  		</div>
+
+      <div class="row">
+  			<div class="dates">
+  				<h3>2018</h3>
+  			</div>
+  			<div class="role">
+  				<h3>Excellent graduate</h3>
+  			</div>
+  			<div class="venue">
+  				<h5>Dalian Univerisity of Technology, China</h5>
+  			</div>
+  		</div>
+  		<div class="row">
+  			<div class="topic"></div>
+  			<div class="details">
+  				<h3>
+  				Awarded based on GPA percentile.
+  				</h3>
+  			</div>
+  		</div>
+
+		</div>
+
+    <div class="subheader">
+			<h4><span style="color:#ffa500">sem</span>inors</h4>
+			<div class="row">
+				<div class="topic"><h3>2021</h3></div>
+				<div class="details">
+					<h3>Take part in <a href="https://discover.titech.ac.jp/2021/09/aspire-forum-2021-better-living-for-all-in-a-new-normal/">ASPIRE Forum 2021 Online Student Workshop</a> representing Tokyo Tech</h3>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="topic"><h3>2020</h3></div>
+				<div class="details">
+					<h3>Take part in <a href="http://www.ipo.titech.ac.jp/campusasia/">TKT Campus Asia</a> Online Summer Camp 2020 hosted by KAIST representing Tokyo Tech</h3>
+				</div>
+			</div>
+
+		</div>
+
+	  </div>
+  </div>
+
+</section>
+</div>
+
+<section class="delayedAppearance" id="footer">
+	<p>Built and maintained by <a class="smallLinks" href="https://tuoyin.github.io" rel="noopener">tuoyin</a>. Theme template by <a class="smallLinks" href="https://joolean.io" rel="noopener">Julian Praest</a>.</p>
+</section>
+
+<section id="sm_links">
+	<div class="sm_button">
+		<a href="index.html" >
+		<img alt="return" src="return_nohover.png" width="60" height="60">
+		</a>
+	</div>
+</section>
+
+
+</body>
+</html>

@@ -1,0 +1,439 @@
+
+<!DOCTYPE html>
+<html>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163418269-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-163418269-1');
+</script>
+
+<head lang="el">
+<link rel="shortcut icon" href="l.ico" type="image/x-icon"/>
+<TITLE>Tuo's Publications</TITLE>
+<META name="author" content="Template Creator: Julian Praest - joolean.io">
+<META name="editedby" content="Template adjustment: tuoyin - tuoyin.github.io">
+<META name="copyright" content="Creative Commons BY-NC 4.0">
+<meta name="viewport" content="width=device-width, initial-scale=0.7">
+
+<style>
+@import 'https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i|Raleway:300,300i,600,600i|Alegreya+Sans:300i';
+
+body {
+    background-image: linear-gradient(-34deg, #003030 7%, #003030 47%, #003030 100%);
+	border-radius: 0px;
+	overflow: hidden;
+    text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: #3C3C3C ; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #3C3C3C ; /* Gecko Browsers */
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+section {
+    display: block;
+    position: absolute;
+}
+
+.wrapper {
+    display: block;
+    position: absolute;
+	overflow-y: auto;
+	overflow-x: hidden;
+	top: 5%;
+	bottom:5%;
+	width: 85%;
+	height: 80%;
+}
+
+#information {
+
+    left: 25%;
+    top: 5%;
+	width: 50%;
+    height: 100%;
+	word-wrap: normal;
+}
+
+#footer {
+	left: 0;
+	bottom: 2%;
+	width: 100%;
+	text-align: center;
+
+   	font-family: 'Cormorant Garamond', serif;
+	font-style: italic;
+	font-size: 12px;
+	font-weight: 100 !important;
+	color: #FFF3F1 ;
+	letter-spacing: 0.5px;
+	line-height: 26px;
+}
+
+#photo {
+	background-image: url("photo.png");
+    background-size:contain;
+	position: absolute;
+	width: 600px;
+	height: 600px;
+	background-repeat: no-repeat;
+    left: -120px;
+    top: -150px;
+}
+
+#frameBorder {
+    border: 10px white solid;
+	left: 10px;
+    top: 10px;
+	right: 10px;
+	bottom: 10px;
+    position: absolute;
+}
+
+#sm_links {
+    right: 5%;
+    top: 5%;
+}
+
+.sm_button {
+    margin-top: 10px;
+}
+
+a {
+	font-family: 'Raleway', sans-serif;
+    font-weight: 300!important;
+	letter-spacing: -0.02px;
+	color: #FFDB58 ;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.bigLinks {
+	font-size: 14px;
+}
+
+.smallLinks {
+	font-size: 12px;
+}
+
+img { border: 0; }
+
+.delayedAppearance {
+    -moz-animation-name: pageLoad;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-out;
+    -moz-animation-duration: 0.8s;
+    -moz-animation-delay: 0s;
+
+    -webkit-animation-name: pageLoad;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-delay: 0s;
+
+    animation-name: pageLoad;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 0.8s;
+    animation-delay: 0s;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	font-weight: 600 !important;
+	color: #FFFFFF;
+	letter-spacing: 1.9px;
+	margin-top: -20px;
+}
+
+h2 {
+	font-family: 'Cormorant Garamond', serif;
+	font-style: italic;
+	font-size: 18px;
+	font-weight: 100 !important;
+	color: #FFF3F1 ;
+	letter-spacing: 0.5px;
+	line-height: 26px;
+}
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+    font-weight: 300!important;
+	color: #FFFFFF;
+	letter-spacing: -0.02px;
+}
+
+hr {
+    background-color: white;
+    display: block;
+    margin: -25px 00px 50px ;
+    height: 3px;
+    width: 160px;
+    border: none;
+}
+
+ul {
+    display: block;
+    position: fixed;
+}
+
+@-moz-keyframes pageLoad {
+    0% {
+        -moz-transform: translateX(-150px);
+        opacity: 0;
+    }
+    100% {
+        -moz-transform: translateX(0);
+        opacity: 100;
+    }
+}
+@-webkit-keyframes pageLoad {
+    0% {
+        -webkit-transform: translateX(-150px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        opacity: 100;
+    }
+}
+@keyframes pageLoad {
+    0% {
+        transform: translateX(-150px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 100;
+    }
+}
+
+@-moz-keyframes pageLoadButton {
+    0% {
+        opacity: 0;
+    }    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+@-webkit-keyframes pageLoadButton {
+    0% {
+        opacity: 0;
+    }    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+@keyframes pageLoadButton {
+    0% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+
+@media screen and (max-width: 812px) {
+	.wrapper {
+		width: 80%;
+	}
+	#information {
+		left: 10%;
+		width: 70%;
+	}
+	.buttonContainer {
+		top: 75%;
+		left: 10%;
+		width: 80%;
+	}
+	#footer {
+		font-size: 8px;
+	}
+	.smallLinks
+	{
+		font-size: 8px;
+	}
+
+	#photo {
+		opacity: 0.2;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	h3 {
+		font-size: 20px;
+	}
+	.buttonContainer {
+		transform: scale(0.7);
+		height: 20%;
+	}
+	.buttons li {
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 812px) {
+	h3 {
+		font-size: 24px;
+	}
+	.buttonContainer {
+		height: 15%;
+	}
+	.buttons li {
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px){
+	h3 {
+		font-size: 24px;
+	}
+	.buttonContainer {
+		top: 45%;
+	}
+}
+
+</style>
+</head>
+<body>
+
+
+
+<div id="frameBorder"></div>
+
+<div class="wrapper">
+<section id="information" class="delayedAppearance">
+  <h1 class="delayedAppearance">Publications</h1>
+  <hr class="delayedAppearance">
+  <h2 class="delayedAppearance">
+	<dl>
+		<dt><h3>2021</h3></dt>
+		<dd><strong>Conference</strong> "Low-dose Direct PET Image Reconstruction Using Channel Attention for Deep Neural Network"</dd>
+		<dd>Tuo Yin and Takashi Obi, <strong>2021 IEEE Nuclear Science Symposium and Medical Imaging Conference</strong>, MP-I-143, Oct. 2021.</dd>
+		<dd>Poster + Oral presentation + Proceedings paper</dd>
+		<dd> <a href="https://nssmic.ieee.org/2021/">Conference Details</a></dd>
+		<br>
+    <dd><strong>Conference</strong> "Higher SNR PET image prediction using a deep learning model with efficient channel attention"</dd>
+		<dd>Tuo Yin and Takashi Obi, <strong>JAMIT Annual Meeting 2021</strong>, P3-08, Oct. 2021. Published by The Japanese Society of Medical Imaging Technology (JAMIT).</dd>
+		<dd>Poster + Oral presentation + Proceedings paper</dd>
+		<dd> <a href="https://nssmic.ieee.org/2021/">Conference Details</a></dd>
+		<br>
+    <dd><strong>Journal</strong> "Generation of Attenuation Correction Factors from Time-of-flight PET Emission Data Using High-resolution Residual U-Net"</dd>
+		<dd>Tuo Yin and Takashi Obi, <strong>Biomedical Physics & Engineering Express</strong>, Vol. 7, No. 6, Sep. 2021.</dd>
+		<dd><a href="https://iopscience.iop.org/journal/2057-1976">Journal Details</a> &nbsp; &nbsp; <a href="https://iopscience.iop.org/article/10.1088/2057-1976/ac21aa">Manuscript</a> &nbsp; &nbsp;</dd>
+		<br>
+    <dd><strong>Conference</strong> "Attenuation Correction Factors Generation of a Dedicated Brain PET System with Time-of-Flight Information Using a High-resolution Compact Network"</dd>
+		<dd>Tuo Yin and Takashi Obi, <strong>Forum on Information Technology 2021</strong>, 4h-4, Aug. 2021.</dd>
+		<dd>Oral presentation + Proceedings paper</dd>
+		<dd> <a href="https://www.ipsj.or.jp/event/fit/fit2021/">Conference Details</a></dd>
+		<br>
+    <dd><strong>Conference</strong> "Direct Image Reconstruction of a Helmet Brain PET System with Time-of-Flight Information Using a Feed Forward Neural Network"</dd>
+		<dd>Tuo Yin, Takashi Obi, Hiroyuki Suzuki, and Joong-Sun Lee, <strong>2021 IEICE General Conference</strong>, D-16-5, Mar. 2020.</dd>
+		<dd>Oral presentation + Proceedings paper</dd>
+		<dd> <a href="https://www.ieice-taikai.jp/2020society/en/index.html">Conference Details</a></dd>
+		<br>
+	</dl>
+	</h2>
+
+	<br>
+
+	<h1 class="delayedAppearance">Theses</h1>
+	<hr class="delayedAppearance">
+	<h2 class="delayedAppearance">
+		<dl>
+		  <dt><h3>2021 - MEng Thesis, 2-year Master of Engineering in Information and Communications Engineering, Tokyo Institute of Technology, Japan</h3></dt>
+		  <dd>"Image Quality Improvement in Reconstruction from TOF-PET Emission Data Using Deep Neural Networks", Yin Tuo, <strong>Tokyo Institute of Technology</strong>, Japan, Jul. 2021</dd>
+		  <dd>under the supervision of Professor Takashi Obi</dd>
+		  <dd> <a href="https://drive.google.com/file/d/10PJLs8D_ixHMpLR58IFtutz-IwiOxN78/view?usp=sharing"> Manuscript</a>
+		  &nbsp; &nbsp; <a href="https://docs.google.com/presentation/d/12agLAzJ15SZv7tilEiDYb0YLPeeuQg85/edit?usp=sharing&ouid=115064718366476517940&rtpof=true&sd=true">Presentation slides</a> </dd>
+		  <dt><h3>2018 - Diploma Thesis, 4-year Bachelor of Engineering in Software Engineering, Dalian University of Technology, China</h3></dt>
+		  <dd>"Detection of Lung Nodels based on a Deep Learning Method", Yin Tuo, <strong>Dalian University of Technology</strong>, China, June 2018</dd>
+		  <dd>under the supervision of Professor Rui Xu</dd>
+		  <dd> <a href="https://drive.google.com/file/d/17xIS2O6Zq0Y_pGjPusymsR3UP-TFe-aT/view?usp=sharing"> Manuscript</a> &nbsp; &nbsp;  <a href="https://drive.google.com/file/d/12ltKF1UDtmGywAqTr9ts3fHtRmu45fED/view?usp=sharing">Presentation slides</a> &nbsp; &nbsp; <a href="https://drive.google.com/file/d/19XMmj68-kAb8v0IV_pFriaRlbsOv-GQB/view?usp=sharing">Poster</a></dd>
+		  <br>
+		  <br>
+		</dl>
+	</h2>
+
+	<br>
+
+	<h1 class="delayedAppearance">Blogs</h1>
+	<hr class="delayedAppearance">
+	<h2 class="delayedAppearance">
+	<dl>
+		<dt><h3>Ambassadors' blog</h3></dt>
+		<dd>Blog articles in English about university and daily life in Tokyo Institute of Technology</dd>
+		<dd><a href="https://discover.titech.ac.jp/ambassador/tuo/">Author page at discover.titech.ac.jp</a></dd>
+
+		<dt><h3>Zhihu.com </h3></dt>
+		<dd>Blog articles in Chinese to share experience in study and taking tests</dd>
+		<dd><a href="https://www.zhihu.com/people/yin-tuo-60">Author page at zhihu.com</a></dd>
+
+	</dl>
+	</h2>
+
+</section>
+</div>
+
+<section class="delayedAppearance" id="footer">
+	<p>Built and maintained by <a class="smallLinks" href="https://tuoyin.github.io" rel="noopener">tuoyin</a>. Theme template by <a class="smallLinks" href="https://joolean.io" rel="noopener">Julian Praest</a>.</p>
+</section>
+
+<section id="sm_links">
+	<div class="sm_button">
+		<a href="https://www.linkedin.com/in/tuo-yin-049a97195/" rel="noopener">
+		<img alt="my linkedin profile" src="in.png" width="60" height="60">
+		</a>
+	</div>
+	<div class="sm_button">
+		<a href="https://orcid.org/0000-0002-8778-480X" target="orcid.widget" rel="noopener">
+		<img alt="my ORCID iD" src="orcid.png" width="60" height="60">
+		</a>
+	</div>
+	<div class="sm_button">
+		<a href="https://github.com/YinTuo" rel="noopener">
+		<img alt="my github profile" src="gh.png" width="60" height="60">
+		</a>
+	</div>
+	<div class="sm_button">
+		<a href="https://www.researchgate.net/profile/Tuo-Yin" rel="noopener">
+		<img alt="my researchgate profile" src="rg.png" width="60" height="60">
+		</a>
+	</div>
+</section>
+
+
+</body>
+</html>
